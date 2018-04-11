@@ -1,0 +1,7 @@
+body{
+  background-image: url("slike/pozadina.jpg");
+}
+
+.jumbotron{
+  opacity: 0.5;
+}
