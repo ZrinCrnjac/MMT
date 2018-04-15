@@ -2,6 +2,88 @@ body{
   background-image: url("slike/pozadina.jpg");
 }
 
-.jumbotron{
-  opacity: 0.5;
+div.osnova{
+  display: inline-block;
+  position:absolute;
+  height:100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.6);
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 100px;
+}
+
+#podnaslov{
+  text-align: center;
+  font-size: 40px;
+}
+
+.col-md-4{
+  background-color: rgba(255,255,255,0.6);
+  outline-style: solid;
+  outline-color: black;
+}
+
+h3{
+  text-align: center;
+  font-size: 35px;
+}
+
+#onogometu{
+  text-align: justify;
+  font-size: 20px;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.expanded {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnail{
+  display: inline-block;
+  position: relative;
+  background-position: 50% 50%;
+  background-color: white;
+  border: none;
+  margin: auto;
+  float: left;
+}
+
+#slike{
+  border: none;
+  background: none;
+  outline: none;
+}
+
+#predivanvideo{
+  background: none;
+  outline: none;
+}
+
+#audio{
+  text-align: center;
+  font-size: 29px;
+}
+
+div.centerplayer{
+  margin: auto;
+  display: table;
+}
+
+#modric{
+  background: none;
+  outline: none;
 }
